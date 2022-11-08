@@ -8,6 +8,7 @@ build/
 **/src/main/**/test/
 **/src/main/resources/
 **/src/test/
+**/src/main/**/config.ini
 .DS_Store
 gradlew.bat
 gradlew

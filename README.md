@@ -67,7 +67,7 @@ $ java -jar demo-0.0.1-SNAPSHOT.jar
  
 #### Frontend
 ```
-$ cd frontend
+$ cd react
 $ npm install
 $ yarn start
 ```

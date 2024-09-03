@@ -225,4 +225,4 @@ $ python apiMain.py
 > [!NOTE]
 > 프로젝트 회고는 [해당 링크](https://gomdiing.github.io/miniproject/miniproject_artifact/)에서 자세히 보실 수 있습니다.
 
-![image](./md_attachment/review.png)
+<img src="./md_attachment/review.png" width="480">

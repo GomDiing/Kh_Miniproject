@@ -79,6 +79,7 @@ $ pip3 install requests flask sqlalchemy==1.4.4 apscheduler mysql-connector
 $ python apiMain.py
 ````
 
+<br>
 
 ## 03. 기술 스택
 <h3 align="left"> Tools </h3>
@@ -116,6 +117,8 @@ $ python apiMain.py
 <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=MariaDB&logoColor=white" />&nbsp
 </div>
 
+<br>
+
 ## 04. 화면 구성
 |메인 페이지|영화 페이지|
 |:---:|:---:|
@@ -136,6 +139,7 @@ $ python apiMain.py
 |API 히스토리|API 요구사항|
 |<img src="./md_attachment/page_api-history.png" width="210"/>|<img src="./md_attachment/page_api-require.png" width="210"/>|
 
+<br>
 
 ## 06. 주요 기능
 1. 카테고리별 분류를 통한 영화 추천
@@ -145,6 +149,8 @@ $ python apiMain.py
     - 기본적인 기능은 비회원인 상태에서도 사용 가능
 3. 리뷰 작성 기능 제공
     - 회원 가입 기능을 통해 리뷰 작성 가능
+
+<br>
 
 ## 07. 아키텍쳐
 <div align="center">
@@ -210,6 +216,13 @@ $ python apiMain.py
 
 > [!NOTE]
 > 프로젝트 진행도는 [해당 링크](https://telling-list-c32.notion.site/5510047431ae46a5b029100433bb5679?pvs=25)에서 자세히 보실 수 있습니다.
-### 
+
 
 ![image](./md_attachment/project_progress.png)
+
+### 프로젝트 회고
+
+> [!NOTE]
+> 프로젝트 회고는 [해당 링크](https://gomdiing.github.io/miniproject/miniproject_artifact/)에서 자세히 보실 수 있습니다.
+
+![image](./md_attachment/review.png)

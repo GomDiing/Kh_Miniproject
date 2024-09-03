@@ -40,7 +40,7 @@
 
 ## 02. 시작 가이드
 
-> [!CAUTION] 경고
+> [!CAUTION]
 > 보안 문제로 Backend & Frontend & Python 설정 파일을 업로드하지 않았습니다.  
 > 제대로 작동하지 않으니 [배포 주소](#배포-주소)로 접속해주세요.
 
@@ -127,7 +127,7 @@ $ python apiMain.py
 
 ## 05. API 주소
 
-> [!NOTE] 참고
+> [!NOTE]
 > API 문서는 [해당 링크](https://telling-list-c32.notion.site/API-44cc96085fb246f6a5c635ece5276122)에서 자세히 보실 수 있습니다.
 
 |API 목차|API 상세|
@@ -151,6 +151,42 @@ $ python apiMain.py
 <img src="./md_attachment/architecture.png" width="480">
 </div>
 
+```
+.
+├── md_attachment       // README 첨부파일 폴더
+├── python              // Python 폴더, TMDB API 서버 기능
+├── react               // Frontend 폴더
+│   ├── public
+│   └── src 
+│       ├── api
+│       ├── images
+│       ├── pages
+│       │   ├── Cards
+│       │   ├── Category
+│       │   ├── Login
+│       │   ├── MainPage
+│       │   ├── Menu
+│       │   └── MyPage
+│       └── util
+└── spring              // Backend 폴더
+    ├── build
+    ├── gradle
+    └── src             // Spring 소스코드
+        └── main/java/comprehensive/demo
+            └── demo
+                ├── controller     
+                ├── dto             
+                ├── entity
+                ├── exception       // 예외처리
+                ├── interceptor     // 로그 기록
+                ├── repository
+                ├── response        // 응답
+                ├── service
+                ├── test
+                └── vo
+
+```
+
 <br>
 
 ## 08. 개발 문서
@@ -170,8 +206,10 @@ $ python apiMain.py
 </div>
 
 
-## 09. 기타 문서
 ### 프로젝트 진행도
-![image](./md_attachment/project_progress.png)
 
+> [!NOTE]
+> 프로젝트 진행도는 [해당 링크](https://telling-list-c32.notion.site/5510047431ae46a5b029100433bb5679?pvs=25)에서 자세히 보실 수 있습니다.
 ### 
+
+![image](./md_attachment/project_progress.png)

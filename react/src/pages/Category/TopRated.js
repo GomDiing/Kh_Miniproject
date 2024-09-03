@@ -16,7 +16,7 @@ function TopRated() {
     
     // 렌더링시 DB에서 영화 정보 받아오는 작업
     useEffect(() => {
-        const topRated = `http://cokebear756.synology.me:62322/api/movie/topRated?page=0`;
+        const topRated = `http://localhost:8080/api/movie/topRated?page=0`;
         FetchMovies(topRated)
     }, []);
 
@@ -44,7 +44,7 @@ function TopRated() {
 
     // 더보기
     const loadMore = () => {
-        const topRated = `http://cokebear756.synology.me:62322/api/movie/topRated?page=${CurrentPage +1}`;
+        const topRated = `http://localhost:8080/api/movie/topRated?page=${CurrentPage +1}`;
         FetchMovies(topRated)
     };
 

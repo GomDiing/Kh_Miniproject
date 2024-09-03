@@ -22,19 +22,19 @@ function Trailer() {
 
     // 렌더링시 DB에서 예고편 youtube url 받아오는 작업
     useEffect(() => {
-        const nowTrailer = `http://cokebear756.synology.me:62322/api/movie/436270`;
+        const nowTrailer = `http://localhost:8080/api/movie/436270`;
         FetchTrailer(nowTrailer)
     }, []);
     useEffect(() => {
-        const nowTrailer2 = `http://cokebear756.synology.me:62322/api/movie/238`;
+        const nowTrailer2 = `http://localhost:8080/api/movie/238`;
         FetchTrailer2(nowTrailer2)
     }, []);
     useEffect(() => {
-        const nowTrailer3 = `http://cokebear756.synology.me:62322/api/movie/505642`;
+        const nowTrailer3 = `http://localhost:8080/api/movie/505642`;
         FetchTrailer3(nowTrailer3)
     }, []);
     useEffect(() => {
-        const nowTrailer4 = `http://cokebear756.synology.me:62322/api/movie/663712`;
+        const nowTrailer4 = `http://localhost:8080/api/movie/663712`;
         FetchTrailer4(nowTrailer4)
     }, []);
 

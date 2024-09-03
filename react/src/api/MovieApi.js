@@ -1,6 +1,6 @@
 import axios from "axios";
 const HEADER = 'application/json';
-const MOVIE_DOMAIN="http://cokebear756.synology.me:62322/api";
+const MOVIE_DOMAIN="http://localhost:8080/api";
 
 const MovieApi={
     // 로그인 api

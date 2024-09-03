@@ -16,7 +16,7 @@ function NowPlaying() {
     
     // 렌더링시 DB에서 영화 정보 받아오는 작업
     useEffect(() => {
-        const nowPlaying = `http://cokebear756.synology.me:62322/api/movie/nowPlaying?page=0`;
+        const nowPlaying = `http://localhost:8080/api/movie/nowPlaying?page=0`;
         FetchMovies(nowPlaying)
     }, []);
 
@@ -44,7 +44,7 @@ function NowPlaying() {
 
     // 더보기
     const loadMore = () => {
-        const nowPlaying = `http://cokebear756.synology.me:62322/api/movie/nowPlaying?page=${CurrentPage +1}`;
+        const nowPlaying = `http://localhost:8080/api/movie/nowPlaying?page=${CurrentPage +1}`;
         FetchMovies(nowPlaying)
     };
 

@@ -35,7 +35,7 @@ function Reviews(props) {
             review : Review
         }
         try {
-            const response = await axios.post('http://cokebear756.synology.me:62322/api/member/review', rev)
+            const response = await axios.post('http://localhost:8080/api/member/review', rev)
             if(response.data.statusCode === 200) {
             setReview("")
             props.refreshFunction(response.data.result)

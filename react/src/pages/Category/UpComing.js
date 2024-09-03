@@ -16,7 +16,7 @@ function UpComing() {
     
     // 렌더링시 DB에서 영화 정보 받아오는 작업
     useEffect(() => {
-        const upcoming = `http://cokebear756.synology.me:62322/api/movie/upcoming?page=0`;
+        const upcoming = `http://localhost:8080/api/movie/upcoming?page=0`;
         FetchMovies(upcoming)
     }, []);
 
@@ -44,7 +44,7 @@ function UpComing() {
 
     // 더보기
     const loadMore = () => {
-        const upcoming = `http://cokebear756.synology.me:62322/api/movie/upcoming?page=${CurrentPage +1}`;
+        const upcoming = `http://localhost:8080/api/movie/upcoming?page=${CurrentPage +1}`;
         FetchMovies(upcoming)
     };
 

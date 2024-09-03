@@ -16,16 +16,16 @@ function MainPage() {
 
     // 렌더링시 DB에서 영화 정보 카테고리별 받아오는 작업
     useEffect(() => {
-        const nowPlaying = `http://cokebear756.synology.me:62322/api/movie/nowPlaying?page=0`;
+        const nowPlaying = `http://localhost:8080/api/movie/nowPlaying?page=0`;
         FetchMovies(nowPlaying)
 
-        const popular = `http://cokebear756.synology.me:62322/api/movie/popular?page=0`;
+        const popular = `http://localhost:8080/api/movie/popular?page=0`;
         FetchMovies2(popular)
 
-        const topRated = `http://cokebear756.synology.me:62322/api/movie/topRated?page=0`;
+        const topRated = `http://localhost:8080/api/movie/topRated?page=0`;
         FetchMovies3(topRated)
 
-        const upcoming = `http://cokebear756.synology.me:62322/api/movie/upcoming?page=0`;
+        const upcoming = `http://localhost:8080/api/movie/upcoming?page=0`;
         FetchMovies4(upcoming)
     }, []);
     

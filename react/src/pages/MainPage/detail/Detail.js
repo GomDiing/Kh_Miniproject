@@ -31,7 +31,7 @@ function Detail(props) {
 
     // 영화 상세정보/배우/리뷰
     useEffect(() => {
-        let contentInfo = `http://cokebear756.synology.me:62322/api/movie/${movieId}`;
+        let contentInfo = `http://localhost:8080/api/movie/${movieId}`;
 
         // 영화 상세 정보 받아오기 및 처리
         fetch(contentInfo, {

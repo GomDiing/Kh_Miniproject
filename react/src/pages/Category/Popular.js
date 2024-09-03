@@ -16,7 +16,7 @@ function Popular() {
     
     // 렌더링시 DB에서 영화 정보 받아오는 작업
     useEffect(() => {
-        const popular = `http://cokebear756.synology.me:62322/api/movie/popular?page=0`;
+        const popular = `http://localhost:8080/api/movie/popular?page=0`;
         FetchMovies(popular)
     }, []);
 
@@ -44,7 +44,7 @@ function Popular() {
 
     // 더보기
     const loadMore = () => {
-        const popular = `http://cokebear756.synology.me:62322/api/movie/popular?page=${CurrentPage +1}`;
+        const popular = `http://localhost:8080/api/movie/popular?page=${CurrentPage +1}`;
         FetchMovies(popular)
     };
 
